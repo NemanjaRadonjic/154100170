@@ -3,9 +3,18 @@ import { render } from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import { Reset } from "./cssReset";
+import { GlobalStyles } from "./globalStyles";
+
+import { BrowserRouter as Router } from "react-router-dom";
+
 render(
   <StrictMode>
-    <App />
+    <Reset />
+    <GlobalStyles />
+    <Router>
+      <App />
+    </Router>
   </StrictMode>,
   document.getElementById("root")
 );
