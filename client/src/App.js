@@ -1,5 +1,6 @@
 import Navbar from "./Layout/Navbar";
 import Heading from "./Layout/Heading";
+import Footer from "./Layout/Footer";
 
 import Pocetna from "@routes/Pocetna";
 import Onama from "@routes/Onama";
@@ -7,11 +8,13 @@ import Kontakt from "@routes/Kontakt";
 import Proizvodi from "@routes/Proizvodi";
 import Galerija from "@routes/Galerija";
 
+import { Container } from "./styles";
+
 import { Redirect, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <Container>
       <Navbar />
       <Heading />
       <Switch>
@@ -34,7 +37,8 @@ function App() {
           <Galerija />
         </Route>
       </Switch>
-    </div>
+      <Footer />
+    </Container>
   );
 }
 

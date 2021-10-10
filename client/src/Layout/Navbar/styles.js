@@ -8,9 +8,10 @@ export const Container = styled.nav`
   justify-content: space-around;
   width: 30%;
   color: rgba(230, 230, 230, 0.822);
-  font-size: 0.9rem;
+  font-size: 1rem;
   cursor: pointer;
   padding: 0.7rem 0;
+  z-index: 1;
 `;
 
 export const Item = styled.div`
@@ -31,11 +32,11 @@ export const Item = styled.div`
   }
 
   &:hover {
-    color: white;
+    color: rgb(168, 133, 56);
   }
 
   &:hover::after {
     width: 100%;
-    background: white;
+    background: rgb(168, 133, 56);
   }
 `;
