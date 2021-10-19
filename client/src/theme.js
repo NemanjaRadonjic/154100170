@@ -3,7 +3,8 @@ const theme = {
   white: "245, 242, 235",
   gray: "181, 181, 181",
   black: "31, 31, 31",
-  writtenFont: '"Grechen Fuemen", cursive',
+  // writtenFont: '"Grechen Fuemen", cursive',
+  writtenFont: "'Ephesis', cursive",
 };
 
 export default theme;

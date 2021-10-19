@@ -26,27 +26,27 @@ export const Container = styled.section`
 
 export const Message = styled.h1`
   position: absolute;
-  bottom: 35%;
-  left: 17%;
+  bottom: 45%;
+  left: 15%;
   font-family: ${theme.writtenFont};
-  font-style: italic;
-  font-size: 2.4rem;
+  // font-style: italic;
+  font-size: 3.5rem;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 3rem;
   color: rgb(${theme.gray});
 
   &::before {
     content: "";
     position: absolute;
-    bottom: -120%;
-    left: -36%;
+    top: 0;
+    left: -25%;
     height: 20rem;
     width: 20rem;
     transform: rotate(-45deg);
     border: 2px solid rgb(${theme.gold});
     outline: 2px solid rgba(${theme.white}, 0.5);
-    outline-offset: 15rem;
+    outline-offset: 10rem;
     z-index: -1;
   }
 `;

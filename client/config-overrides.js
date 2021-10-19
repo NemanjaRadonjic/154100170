@@ -7,6 +7,8 @@ const path = require("path");
 // add alias support to webpack config
 module.exports = function override(config, env) {
   config = rewireAliases.aliasesOptions({
+    "@src": path.resolve(__dirname, `${paths.appSrc}/`),
+    "@layout": path.resolve(__dirname, `${paths.appSrc}/Layout`),
     "@images": path.resolve(__dirname, `${paths.appSrc}/images`),
     "@routes": path.resolve(__dirname, `${paths.appSrc}/Routes`),
     "@theme": path.resolve(__dirname, `${paths.appSrc}/theme`),

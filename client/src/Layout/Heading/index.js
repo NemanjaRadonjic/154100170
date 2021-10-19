@@ -4,8 +4,8 @@ function Heading() {
   return (
     <Container>
       <Message>
-        KVALITET JE NAŠ ZAŠTITNI ZNAK RECEPTI SE MOGU PRILAGODITI VASIM ŽELJAMA
-        I POTREBAMA!
+        Kvalitet je nas zastitni znak, recepti se mogu prilagoditi vasim zeljama
+        i potrebama.
       </Message>
       <Info>Naš telefon: 061 4600243</Info>
     </Container>

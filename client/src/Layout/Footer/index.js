@@ -1,8 +1,8 @@
-import { Container, Info, Social, Phone, Gmail } from "./styles";
+import { Container, Info, Social, Phone } from "./styles";
 
-import { ReactComponent as FacebookIco } from "../../icons/facebook-square-brands.svg";
-import { ReactComponent as InstagramIco } from "../../icons/instagram-square-brands.svg";
-import { ReactComponent as GmailIco } from "../../icons/envelope-solid.svg";
+import { ReactComponent as FacebookIco } from "@src/icons/facebook-square-brands.svg";
+import { ReactComponent as GmailIco } from "@src/icons/envelope-solid.svg";
+import { ReactComponent as InstagramIco } from "@src/icons/instagram-square-brands.svg";
 
 function Footer() {
   return (
@@ -15,13 +15,15 @@ function Footer() {
         >
           <FacebookIco className="ico" />
         </a>
+        <a href="mailto:insertemailhere@gmail.com">
+          <GmailIco className="ico" />
+        </a>
         <a
           href="https://www.instagram.com/domace_torte_kolaci_peciva/"
           target="_blank"
         >
           <InstagramIco className="ico" />
         </a>
-        <GmailIco className="ico" />
       </Social>
       <Phone>
         Ako imate bilo kakva pitanja ili porudzbine pozovite <br />

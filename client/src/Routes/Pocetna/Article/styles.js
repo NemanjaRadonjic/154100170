@@ -33,6 +33,7 @@ export const Message = styled.div`
   color: rgb(${theme.black});
   font-style: italic;
   font-size: 1.5rem;
+  font-weight: 300;
   // font-family: ${theme.writtenFont};
   position: relative;
   margin: auto;

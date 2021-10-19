@@ -4,7 +4,7 @@ import theme from "@theme";
 
 export const globalStyle = css`
   html {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Heebo", sans-serif;
     font-size: 100%;
 
     @media (max-width: 1600px) {
@@ -60,6 +60,49 @@ export const globalStyle = css`
 
   .ico:hover {
     color: rgb(${theme.gold});
+  }
+
+  .ico.border {
+    border: 2px solid rgb(${theme.gray});
+    border-radius: 5px;
+    padding: 0.3rem 0.6rem;
+    transition: border 0.2s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .ico.border:hover {
+    border: 2px solid rgb(${theme.gold});
+  }
+
+  //scrollbar
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(${theme.black});
+    transition: background 0.3s ease-in-out;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(${theme.gold});
+  }
+
+  .map {
+    border: 2px solid rgb(${theme.gray});
+    transition: border 0.4s ease-in-out;
+    box-shadow: 0 0 10px rgba(${theme.black}, 0.1);
+
+    &:hover {
+      border: 2px solid rgb(${theme.gold});
+    }
   }
 `;
 
