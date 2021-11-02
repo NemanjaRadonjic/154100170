@@ -1,20 +1,63 @@
-import { Container, Header, Text } from "./styles";
+import {
+  Container,
+  Header,
+  Main,
+  Content,
+  ImageContainer,
+  Image,
+  Line,
+} from "./styles";
+
+import Pocetna1 from "@images/Pocetna1.jpg";
+import Pocetna2 from "@images/Pocetna2.jpg";
+import Pocetna3 from "@images/Pocetna3.jpg";
+import Pocetna4 from "@images/Pocetna4.jpg";
+import Pocetna5 from "@images/Pocetna5.jpg";
+
+import theme from "@theme";
+import { Shape } from "../../Layout/Diamond/styles";
 
 function Onama() {
   return (
     <Container>
-      <Header>Onama</Header>
-      <Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-        vehicula tempus ligula. Ut faucibus, ligula tempus venenatis ultricies,
-        elit ante vestibulum lacus, id accumsan nisi arcu ut lorem. Duis
-        pulvinar lacus sed pharetra fringilla. Aenean neque mi, sollicitudin
-        vulputate tempus ac, maximus nec quam. Mauris tristique, velit luctus
-        pharetra pharetra, mi tellus aliquet est, ac imperdiet nunc dui eget
-        risus. Donec porttitor sodales lectus, et iaculis nisi condimentum vel.
-        Integer vestibulum enim at metus cursus, quis dignissim turpis commodo.
-        Etiam sapien quam, tincidunt ac pellentesque at, volutpat non arcu.
-      </Text>
+      <Shape
+        size="25rem"
+        borderColor={`rgb(${theme.gold})`}
+        borderSize="25rem"
+        left="-50%"
+        bottom="50%"
+      />
+      <Shape
+        size="50rem"
+        borderColor={`rgb(${theme.black})`}
+        borderSize="12rem"
+        left="80%"
+        top="50%"
+      />
+      <Header>O nama</Header>
+      <Main>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Odio euismod lacinia
+        at quis risus sed. Etiam dignissim diam quis enim lobortis. Nunc congue
+        nisi vitae suscipit tellus. Metus aliquam eleifend mi in nulla posuere
+        sollicitudin aliquam ultrices.
+      </Main>
+      <Content>
+        <ImageContainer>
+          <Image src={Pocetna3} />
+        </ImageContainer>
+        <Line />
+        <ImageContainer>
+          <Image src={Pocetna4} />
+        </ImageContainer>
+      </Content>
+      <Main>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+        blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+        et quas molestias excepturi sint occaecati cupiditate non provident,
+        similique sunt in culpa qui officia deserunt mollitia animi, id est
+        laborum et dolorum fuga.
+      </Main>
     </Container>
   );
 }

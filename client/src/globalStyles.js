@@ -96,6 +96,7 @@ export const globalStyle = css`
   }
 
   .map {
+    background: rgb(${theme.white});
     border: 2px solid rgb(${theme.gray});
     transition: border 0.4s ease-in-out;
     box-shadow: 0 0 10px rgba(${theme.black}, 0.1);
