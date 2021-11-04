@@ -14,9 +14,6 @@ import {
 import Pocetna1 from "@images/Pocetna1.jpg";
 import Pocetna2 from "@images/Pocetna2.jpg";
 import Pocetna3 from "@images/Pocetna3.jpg";
-import Pocetna4 from "@images/Pocetna4.jpg";
-import Pocetna5 from "@images/Pocetna5.jpg";
-import BannerImg from "@images/Banner.jpg";
 
 import theme from "@theme";
 import { Shape } from "../../Layout/Diamond/styles";

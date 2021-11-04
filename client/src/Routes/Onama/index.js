@@ -8,9 +8,6 @@ import {
   Line,
 } from "./styles";
 
-import Pocetna1 from "@images/Pocetna1.jpg";
-import Pocetna2 from "@images/Pocetna2.jpg";
-import Pocetna3 from "@images/Pocetna3.jpg";
 import Pocetna4 from "@images/Pocetna4.jpg";
 import Pocetna5 from "@images/Pocetna5.jpg";
 
@@ -44,11 +41,11 @@ function Onama() {
       </Main>
       <Content>
         <ImageContainer>
-          <Image src={Pocetna3} />
+          <Image src={Pocetna4} />
         </ImageContainer>
         <Line />
         <ImageContainer>
-          <Image src={Pocetna4} />
+          <Image src={Pocetna5} />
         </ImageContainer>
       </Content>
       <Main>

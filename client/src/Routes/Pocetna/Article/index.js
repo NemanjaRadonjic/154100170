@@ -6,6 +6,8 @@ import Pocetna3 from "@images/Pocetna3.jpg";
 import Pocetna4 from "@images/Pocetna4.jpg";
 import Pocetna5 from "@images/Pocetna5.jpg";
 
+import { nanoid } from "nanoid";
+
 function Article({ order, mainImage, message, message2 }) {
   // algorithm that shuffles images while having a passed one as the last
   const images = [Pocetna1, Pocetna2, Pocetna3, Pocetna4, Pocetna5];
@@ -24,7 +26,12 @@ function Article({ order, mainImage, message, message2 }) {
     const backfill = images.filter((img) => img !== mainImage);
     backfill.push(mainImage);
     return backfill.map((img) => (
-      <Image src={img} rotation={generateRotation()} order={order} />
+      <Image
+        key={nanoid()}
+        src={img}
+        rotation={generateRotation()}
+        order={order}
+      />
     ));
   };
   return (

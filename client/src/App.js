@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/proizvodi">
           <Proizvodi />
         </Route>
-        <Route exact path="/galerija">
+        <Route path="/galerija">
           <Galerija />
         </Route>
       </Switch>

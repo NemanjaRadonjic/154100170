@@ -39,6 +39,7 @@ function Kontakt() {
             <a
               href="https://www.facebook.com/domacetortekolacipeciva/"
               target="_blank"
+              rel="noreferrer"
             >
               <FacebookIco className="ico border" />
             </a>
@@ -48,6 +49,7 @@ function Kontakt() {
             <a
               href="https://www.instagram.com/domace_torte_kolaci_peciva/"
               target="_blank"
+              rel="noreferrer"
             >
               <InstagramIco className="ico border" />
             </a>
@@ -64,6 +66,7 @@ function Kontakt() {
         </div>
         <IframeContainer>
           <iframe
+            title="map"
             className="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5804.564590725136!2d21.935112779373156!3d43.329281546793844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDE5JzQ2LjEiTiAyMcKwNTYnMTcuMyJF!5e0!3m2!1sen!2srs!4v1634298567801!5m2!1sen!2srs"
             width="100%"

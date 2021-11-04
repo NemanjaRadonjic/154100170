@@ -12,6 +12,7 @@ function Footer() {
         <a
           href="https://www.facebook.com/domacetortekolacipeciva/"
           target="_blank"
+          rel="noreferrer"
         >
           <FacebookIco className="ico" />
         </a>
@@ -21,6 +22,7 @@ function Footer() {
         <a
           href="https://www.instagram.com/domace_torte_kolaci_peciva/"
           target="_blank"
+          rel="noreferrer"
         >
           <InstagramIco className="ico" />
         </a>
